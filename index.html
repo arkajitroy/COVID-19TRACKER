@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Document</title>
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="data.css" />
+		<link rel="stylesheet" type="text/css" href="button.css" />
+
+		<meta name= "viewport" content= "width=device-width, initial-scale= 1.0">
+	</head>
+	<body>
+		<body background="background.jpg"></body>
+
+		<div id="container">
+			<div id="mainbox">
+				<div id="titlebar">
+					<h1 class="maintext">COVID-19 TRACKER</h1>
+				</div>
+
+				<div id="enginebar">
+					<h1 class="subtext">POWERED BY : covid19india</h1>
+				</div>
+
+				<div id="databar">
+					<div class="confirmed">
+						<div class="head1">
+							<h3 class="head1">CONFIRMED</h3>
+						</div>
+						<div class="data1" id="confirmed"></div>
+					</div>
+
+					<div class="active">
+						<div class="head2"><h3 class="head2">ACTIVE</h3></div>
+						<div class="data2" id="active"></div>
+					</div>
+
+					<div class="recovered">
+						<div class="head3">
+							<h3 class="head3">RECOVERED</h3>
+						</div>
+						<div class="data3" id="recovered"></div>
+					</div>
+
+					<div class="deceased">
+						<div class="head4"><h3 class="head4">DECEASED</h3></div>
+						<div class="data4" id="deceased"></div>
+					</div>
+				</div>
+
+				<!--
+            <div class="button">
+                <h1 class="buttonlink" >MORE INFO</h1>
+            </div>
+            -->
+				<center>
+					<a href="https://www.covid19india.org/">
+						<button class="myButton">More Info</button>
+					</a>
+				</center>
+			</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
