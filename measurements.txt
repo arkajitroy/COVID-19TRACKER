@@ -1,0 +1,10 @@
+messurements
+
+hover buttons (each size -> 200px )
+
+[3 part in each hover button]
+
+1. top header portion -> where the title is written -> 70px
+2. middle portion ->  350px
+3. lower portion -> 80px
+
